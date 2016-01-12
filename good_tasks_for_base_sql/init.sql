@@ -36,3 +36,28 @@ Insert into EMPLOYEE3 (EMP,SAL) values (1,123);
 Insert into EMPLOYEE3 (EMP,SAL) values (2,123);
 Insert into EMPLOYEE3 (EMP,SAL) values (3,123);
 Insert into EMPLOYEE3 (EMP,SAL) values (4,123);
+Insert into EMPLOYEE3 (EMP,SAL) values (5,null);
+
+create table TEAM (
+  ID NUMBER(8,0),
+  NAME NVARCHAR2(16)
+);
+Insert into TEAM (ID, NAME) values (1, 't1');
+Insert into TEAM (ID, NAME) values (2, 't2');
+Insert into TEAM (ID, NAME) values (3, 't3');
+Insert into TEAM (ID, NAME) values (4, 't4');
+Insert into TEAM (ID, NAME) values (5, 't5');
+Insert into TEAM (ID, NAME) values (6, 't6');
+
+create table city (
+  name NVARCHAR2(16),
+  country NVARCHAR2(16),
+  population NUMBER(8,0)
+);
+insert into city(name, country, population) values ('Moscow', 'Russia', 10381288);
+insert into city(name, country, population) values ('Saint Petersburg', 'Russia', 4039751);
+insert into city(name, country, population) values ('Asd', 'Russia', 432);
+insert into city(name, country, population) values ('Dsa', 'Russia', 3451);
+insert into city(name, country, population) values ('Asd', 'Russia', 432);
+insert into city(name, country, population) values ('Dsa', 'Russia', 3451);
+insert into city(name, country, population) values ('Dsa', 'Russia', 3451);
